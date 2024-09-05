@@ -12,7 +12,7 @@ The dataset used for this project is described in the following paper:
 
 ## Model Architectures
 
-We evaluated several models for this classification task:
+I evaluated several models for this classification task:
 
 1. **Convolutional Neural Network (CNN)**
    - **Architecture**: Three convolutional layers followed by multi-layer perceptron (MLP) layers.
@@ -34,11 +34,11 @@ The ResNet models consistently outperformed the simpler CNN model. Specifically:
 - **ResNet34** achieved 84% accuracy.
 - The simpler CNN model achieved 82% accuracy.
 
-Despite the higher performance of ResNet models compared to the CNN, we observed that increasing the depth of the ResNet model did not always result in better performance. This is likely due to the relatively small size of the dataset, which can lead to overfitting with more complex models like ResNet34. 
+Despite the higher performance of ResNet models compared to the CNN, I observed that increasing the depth of the ResNet model did not always result in better performance. This is likely due to the relatively small size of the dataset, which can lead to overfitting with more complex models like ResNet34. 
 
 ## Regularization Methods
 
-To improve model performance and prevent overfitting, we employed several regularization techniques:
+To improve model performance and prevent overfitting, I employed several regularization techniques:
 
 - **Data Augmentation**: Enhanced the diversity of the training data by applying various transformations, helping the model generalize better to new, unseen data.
 - **Dropout Layers**: Introduced dropout in the neural network to reduce overfitting by randomly setting a fraction of the input units to zero during training.
