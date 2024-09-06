@@ -14,12 +14,6 @@ This repository contains code and resources for breast cancer classification usi
 2. Download the model files you need from the folder.
 3. Follow the instructions in the repository’s README to integrate and use the models in your project.
 
-## Contact
-
-If you encounter any issues or have questions regarding the models, please feel free to reach out to me via [email](mailto:your-email@example.com).
-
-Thank you for your understanding and interest in my work!
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
